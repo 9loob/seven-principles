@@ -1,0 +1,46 @@
+body {
+    
+background-color: rgb(255, 152, 174);
+color: rgb(24, 24, 24); 
+max-width: 600px;
+margin-left: auto;
+margin-right: auto;
+font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    font-size: 80px;
+    line-height:100% ;
+    letter-spacing: -2px;
+}
+
+h2{
+font-weight: 400;
+text-transform:lowercase;
+padding: 16px 24px;
+border: 2px solid;
+border-radius: 24px;
+margin-bottom: 64px;
+}
+
+p{
+    text-align: justify;
+    text-indent: 0px;
+    margin: 0;
+    margin-bottom: 32px;
+}
+
+a{
+    color:rgb(255, 255, 255);
+}
+
+a:hover{
+    font-style: italic;
+
+}
+
+.first-word-uppercase-p::first-letter {
+    font-size: 30px;
+    color: #000000;
+    font-weight: bold;
+}
